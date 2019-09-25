@@ -24,7 +24,7 @@
                     <div>
                         <img src="{{ LOGO_URL }}" style="margin: auto" width="82" height="82">
                         <h2 style="display: inline">
-                            上海菱重堡垒机
+                            {{ JMS_TITLE }}
                         </h2>
                     </div>
                     {% if errors %}
@@ -56,7 +56,7 @@
                 {% include '_copyright.html' %}
             </div>
             <div class="col-md-6 text-right">
-                <!-- <small>2014-2019</small> -->
+               <small>2014-2019</small>
             </div>
         </div>
     </div>

@@ -1615,7 +1615,7 @@ msgstr ""
 msgid ""
 "Jumpserver users of the system using the user to `push system user`,  `get "
 "assets hardware information`, etc. "
-msgstr "Jumpserver 使用该用户来 `推送系统用户`、`获取资产硬件信息` 等。"
+msgstr "堡垒机 使用该用户来 `推送系统用户`、`获取资产硬件信息` 等。"
 
 #: assets/templates/assets/admin_user_list.html:16
 #: assets/templates/assets/asset_list.html:68
@@ -1979,7 +1979,7 @@ msgid ""
 "web@some-host `), rather than using a user the username login server jump (` "
 "ssh xiaoming@some-host `); "
 msgstr ""
-"系统用户是 Jumpserver 跳转登录资产时使用的用户，可以理解为登录资产用户，如 "
+"系统用户是 堡垒机 跳转登录资产时使用的用户，可以理解为登录资产用户，如 "
 "web，sa，dba（`ssh web@some-host`），而不是使用某个用户的用户名跳转登录服务器"
 "（`ssh xiaoming@some-host`）；"
 
@@ -1988,7 +1988,7 @@ msgid ""
 "In simple terms, users log into Jumpserver using their own username, and "
 "Jumpserver uses system users to log into assets. "
 msgstr ""
-"简单来说是用户使用自己的用户名登录 Jumpserver，Jumpserver 使用系统用户登录资"
+"简单来说是用户使用自己的用户名登录 堡垒机，堡垒机 使用系统用户登录资"
 "产。"
 
 #: assets/templates/assets/system_user_list.html:12
@@ -1997,7 +1997,7 @@ msgid ""
 "Ansible push system users into the asset, if the asset (Switch) does not "
 "support ansible, please manually fill in the account password."
 msgstr ""
-"系统用户创建时，如果选择了自动推送，Jumpserver 会使用 Ansible 自动推送系统用"
+"系统用户创建时，如果选择了自动推送，堡垒机 会使用 Ansible 自动推送系统用"
 "户到资产中，如果资产（交换机）不支持 Ansible，请手动填写账号密码。"
 
 #: assets/templates/assets/system_user_list.html:43
@@ -2439,7 +2439,7 @@ msgstr "代码错误"
 #: users/templates/users/reset_password.html:25
 #: xpack/plugins/interface/models.py:36
 msgid "Welcome to the Jumpserver open source fortress"
-msgstr "欢迎使用Jumpserver开源堡垒机"
+msgstr "欢迎使用上海菱重堡垒机"
 
 #: authentication/templates/authentication/login.html:29
 #: authentication/templates/authentication/login_otp.html:29
@@ -3335,7 +3335,7 @@ msgstr "Email主题前缀"
 
 #: settings/forms.py:69
 msgid "Tips: Some word will be intercept by mail provider"
-msgstr "提示: 一些关键字可能会被邮件提供商拦截，如 跳板机、Jumpserver"
+msgstr "提示: 一些关键字可能会被邮件提供商拦截，如 办证、发票"
 
 #: settings/forms.py:75
 msgid "SMTP host"
@@ -3415,8 +3415,8 @@ msgid ""
 "User attr map present how to map LDAP user attr to jumpserver, username,name,"
 "email is jumpserver attr"
 msgstr ""
-"用户属性映射代表怎样将LDAP中用户属性映射到jumpserver用户上，username, name,"
-"email 是jumpserver的属性"
+"用户属性映射代表怎样将LDAP中用户属性映射到堡垒机用户上，username, name,"
+"email 是堡垒机的属性"
 
 #: settings/forms.py:134
 msgid "Enable LDAP auth"
@@ -3609,7 +3609,7 @@ msgstr "署名"
 
 #: settings/forms.py:282
 msgid "Tips: Email signature (eg:jumpserver)"
-msgstr "提示: 邮件的署名 (例如: jumpserver)"
+msgstr "提示: 邮件的署名 (例如: 安几科技)"
 
 #: settings/models.py:128 users/templates/users/reset_password.html:68
 #: users/templates/users/user_profile.html:20
@@ -4707,7 +4707,7 @@ msgstr "上一步"
 
 #: users/templates/users/first_login_done.html:31
 msgid "Welcome to use jumpserver, visit "
-msgstr "欢迎使用Jumpserver开源跳板机系统"
+msgstr "欢迎使用上海菱重堡垒机系统"
 
 #: users/templates/users/first_login_done.html:32
 msgid "Use guide"
@@ -4727,7 +4727,7 @@ msgid ""
 "Django that helps Internet businesses with efficient users, assets, "
 "permissions, and audit management"
 msgstr ""
-"Jumpserver是一款使用Python, Django开发的开源跳板机系统, 助力互联网企业高效 用"
+"上海菱重堡垒机是一款使用Python, Django开发的堡垒机系统, 助力互联网企业高效 用"
 "户、资产、权限、审计 管理"
 
 #: users/templates/users/reset_password.html:32
@@ -5815,7 +5815,7 @@ msgstr "登录页面标题"
 msgid ""
 "Tips: This will be displayed on the enterprise user login page. (eg: Welcome "
 "to the Jumpserver open source fortress)"
-msgstr "提示：将会显示在企业版用户登录页面（eg: 欢迎使用Jumpserver开源堡垒机）"
+msgstr "提示：将会显示在企业版用户登录页面（eg: 欢迎使用上海菱重堡垒机）"
 
 #: xpack/plugins/interface/forms.py:25 xpack/plugins/interface/models.py:19
 msgid "Image of login page"
@@ -6220,7 +6220,7 @@ msgstr "创建"
 #~ msgstr "CPU数量"
 
 #~ msgid "Login Jumpserver"
-#~ msgstr "登录 Jumpserver"
+#~ msgstr "登录 上海菱重堡垒机"
 
 #, fuzzy
 #~| msgid "Delete succeed"

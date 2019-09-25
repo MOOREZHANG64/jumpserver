@@ -353,14 +353,14 @@ MEDIA_ROOT = os.path.join(PROJECT_DIR, 'data', 'media').replace('\\', '/') + '/'
 FIXTURE_DIRS = [os.path.join(BASE_DIR, 'fixtures'), ]
 
 # Email config
-EMAIL_HOST = 'smtp.jumpserver.org'
+EMAIL_HOST = 'smtp.angeek.org'
 EMAIL_PORT = 25
-EMAIL_HOST_USER = 'noreply@jumpserver.org'
+EMAIL_HOST_USER = 'noreply@angeek.org'
 EMAIL_HOST_PASSWORD = ''
 EMAIL_FROM = ''
 EMAIL_USE_SSL = False
 EMAIL_USE_TLS = False
-EMAIL_SUBJECT_PREFIX = '[JMS] '
+EMAIL_SUBJECT_PREFIX = '[angeek] '
 
 # Email custom content
 EMAIL_CUSTOM_USER_CREATED_SUBJECT = ''
@@ -425,9 +425,9 @@ OTP_VALID_WINDOW = CONFIG.OTP_VALID_WINDOW
 # Auth LDAP settings
 AUTH_LDAP = False
 AUTH_LDAP_SERVER_URI = 'ldap://localhost:389'
-AUTH_LDAP_BIND_DN = 'cn=admin,dc=jumpserver,dc=org'
+AUTH_LDAP_BIND_DN = 'cn=admin,dc=angeek,dc=org'
 AUTH_LDAP_BIND_PASSWORD = ''
-AUTH_LDAP_SEARCH_OU = 'ou=tech,dc=jumpserver,dc=org'
+AUTH_LDAP_SEARCH_OU = 'ou=tech,dc=angeek,dc=org'
 AUTH_LDAP_SEARCH_FILTER = '(cn=%(user)s)'
 AUTH_LDAP_START_TLS = False
 AUTH_LDAP_USER_ATTR_MAP = {"username": "cn", "name": "sn", "email": "mail"}

@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jumpserver</title>
+    <title>上海菱重增压器有限公司</title>
     <link rel="shortcut icon" href="{{ FAVICON_URL }}" type="image/x-icon">
     {% include '_head_css_js.html' %}
     <link href="{% static "css/jumpserver.css" %}" rel="stylesheet">
@@ -14,36 +14,24 @@
     <script src="{% static "js/jumpserver.js" %}"></script>
     <style>
         .captcha {
-             float: right;
-         }
+            float: right;
+        }
     </style>
 </head>
 
 <body class="gray-bg">
-    <div class="loginColumns animated fadeInDown">
+    <div class="loginColumns animated fadeInDown" style="max-width: 400px;">
         <div class="row">
-            <div class="col-md-6">
-
-                <h2 class="font-bold" style="text-align: center">{% trans 'Welcome to the Jumpserver open source fortress' %}</h2>
-                <p>
-                    {% trans "The world's first fully open source fortress, using the GNU GPL v2.0 open source protocol, is a professional operation and maintenance audit system in compliance with 4A." %}
-                </p>
-                <p>
-                    {% trans "Developed using Python/Django, following the Web 2.0 specification and equipped with industry-leading Web Terminal solutions, with beautiful interactive interface and good user experience." %}
-                </p>
-                <p>
-                    {% trans 'Distributed architecture is adopted to support multi-machine room deployment across regions, central node provides API, and each machine room deploys login node, which can be extended horizontally and without concurrent access restrictions.' %}
-                </p>
-                <p>
-                    {% trans  "Changes the world, starting with a little bit." %}
-                </p>
+            <div class="col-md-0">
 
             </div>
-            <div class="col-md-6">
+            <div class="col-md-12">
+                <!-- <h3 style="text-align: center; font-family: 'Lato', sans-serif;">上海菱重堡垒机</h3> -->
                 <div class="ibox-content">
                     <div>
-                        <img src="{{ LOGO_URL }}" width="60" height="60">
-                        <span class="font-bold text-center" style="font-size: 24px; font-family: inherit; margin-left: 20px">{% trans 'Login' %}</span>
+                        <img src="{{ LOGO_URL }}" style="vertical-align: -12px;" width="87" height="40">
+                        <!-- <span class="font-bold text-center" style="font-size: 24px; font-family: inherit; margin-left: 20px">{% trans 'Login' %}</span> -->
+                        <h3 style="text-align: center; font-family: 'Lato', sans-serif; display: inline-block; *display: inline; *zoom:1; font-size: 24px; font-family: inherit; margin-left: 20px">上海菱重堡垒机</h3>
                     </div>
                     <form class="m-t" role="form" method="post" action="">
                         {% csrf_token %}
@@ -103,11 +91,6 @@
             </div>
         </div>
         <hr/>
-        <div class="row">
-            <div class="col-md-12">
-                 {% include '_copyright.html' %}
-            </div>
-        </div>
     </div>
 </body>
 </html>

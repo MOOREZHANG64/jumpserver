@@ -5,7 +5,8 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title> {{ JMS_TITLE }} </title>
+		<!-- <title> {{ JMS_TITLE }} </title> -->
+		<title>上海菱重增压器有限公司</title>
         <link rel="shortcut icon" href="{{ FAVICON_URL }}" type="image/x-icon">
 		<link rel="stylesheet" href="{% static 'fonts/font_otp/iconfont.css' %}" />
 		<link rel="stylesheet" href="{% static 'css/otp.css' %}" />
@@ -16,37 +17,37 @@
 
 	<body>
 		<!--头部-->
-		 <header>
-		 	<div class="logo">
-		 		<a href="{% url 'index' %}">
-		 			<img src="{{ LOGO_URL }}" alt="" width="50px" height="50px"/>
-		 		</a>
-		 		<a href="{% url 'index' %}">{{ JMS_TITLE }}</a>
-		 	</div>
-		 	<div>
-                <a href="{% url 'index' %}">{% trans 'Home page' %}</a>
-		 		<b>丨</b>
-                <a href="http://docs.jumpserver.org/zh/docs/">{% trans 'Docs' %}</a>
-		 		<b>丨</b>
-		 		<a href="https://www.github.com/jumpserver/">GitHub</a>
-		 	</div>
-		 </header>
+		<header>
+			<div class="logo">
+				<a href="{% url 'index' %}">
+					<img src="{{ LOGO_URL }}" alt="" width="50px" height="50px"/>
+				</a>
+				<a href="{% url 'index' %}">上海菱重堡垒机</a>
+			</div>
+			<div>
+				<a href="{% url 'index' %}">{% trans 'Home page' %}</a>
+				<!-- <b>丨</b>
+				<a href="http://docs.jumpserver.org/zh/docs/">{% trans 'Docs' %}</a>
+				<b>丨</b>
+				<a href="https://www.github.com/jumpserver/">GitHub</a> -->
+			</div>
+		</header>
 
-		 <!--内容-->
-		 <article>
-            <div class="" style="text-align: center; margin-bottom: 50px">
-                <h2>
-                    {% block small_title %}
-                    {% endblock %}
-                </h2>
-            </div>
-		 	<div >
-                <div class="verify">{% trans 'Security token validation' %}&nbsp;&nbsp;{% trans 'Account' %}&nbsp;<span>{{ user.username }}</span>&nbsp;&nbsp;{% trans 'Follow these steps to complete the binding operation' %}</div>
-                <hr style="width: 500px; margin: auto; margin-top: 10px;">
-                {% block content %}
-                {% endblock %}
-		 	</div>
-		 </article>
+		<!--内容-->
+		<article>
+			<div class="" style="text-align: center; margin-bottom: 50px">
+				<h2>
+					{% block small_title %}
+					{% endblock %}
+				</h2>
+			</div>
+			<div >
+				<div class="verify">{% trans 'Security token validation' %}&nbsp;&nbsp;{% trans 'Account' %}&nbsp;<span>{{ user.username }}</span>&nbsp;&nbsp;{% trans 'Follow these steps to complete the binding operation' %}</div>
+				<hr style="width: 500px; margin: auto; margin-top: 10px;">
+				{% block content %}
+				{% endblock %}
+			</div>
+		</article>
 
 
         <footer>
@@ -57,4 +58,3 @@
 
 	</body>
 </html>
-

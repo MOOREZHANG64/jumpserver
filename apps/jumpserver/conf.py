@@ -347,8 +347,8 @@ defaults = {
     'AUTH_OPENID_IGNORE_SSL_VERIFICATION': True,
     'AUTH_OPENID_SHARE_SESSION': False,
     'OTP_VALID_WINDOW': 2,
-    'OTP_ISSUER_NAME': 'Jumpserver',
-    'EMAIL_SUFFIX': 'jumpserver.org',
+    'OTP_ISSUER_NAME': 'angeek',
+    'EMAIL_SUFFIX': 'angeek.org',
     'TERMINAL_PASSWORD_AUTH': True,
     'TERMINAL_PUBLIC_KEY_AUTH': True,
     'TERMINAL_HEARTBEAT_INTERVAL': 20,
@@ -412,9 +412,9 @@ def load_user_config():
         loaded = load_from_yml(config)
     if not loaded:
         msg = """
-    
+
         Error: No config file found.
-    
+
         You can run `cp config_example.yml config.yml`, and edit it.
         """
         raise ImportError(msg)

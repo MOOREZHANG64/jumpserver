@@ -100,14 +100,14 @@
         </td>
     </tr>
     <tr class="subscription-level-tr-border">
-        <td class="features-outline-td-background-style">RemoteApp(X-PACK)
-        </td>
+        <!-- <td class="features-outline-td-background-style">RemoteApp(X-PACK)
+        </td> -->
         <td class="features-outline-td-background-style">实现更细粒度的应用级授权
         </td>
     </tr>
     <tr class="subscription-level-tr-border">
-        <td class="features-outline-td-background-style">组织管理(X-PACK)
-        </td>
+        <!-- <td class="features-outline-td-background-style">组织管理(X-PACK)
+        </td> -->
         <td class="features-outline-td-background-style">实现多租户管理，权限隔离
         </td>
     </tr>

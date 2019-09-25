@@ -6,8 +6,8 @@
 
     Other module of this app shouldn't connect with other app.
 
-    :copyright: (c) 2014-2018 by Jumpserver Team.
-    :license: GPL v2, see LICENSE for more details.
+    :copyright: (c) 2019 by angeek Team.
+    :license: .
 """
 
 # from terminal.models import Terminal

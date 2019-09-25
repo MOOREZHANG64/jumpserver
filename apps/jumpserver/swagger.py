@@ -20,16 +20,15 @@ def get_swagger_view(version='v1'):
         patterns = api_v1_patterns
     schema_view = get_schema_view(
         openapi.Info(
-            title="Jumpserver API Docs",
+            title="Angeek API Docs",
             default_version=version,
-            description="Jumpserver Restful api docs",
-            terms_of_service="https://www.jumpserver.org",
-            contact=openapi.Contact(email="support@fit2cloud.com"),
-            license=openapi.License(name="GPLv2 License"),
+            description="Angeek Restful api docs",
+            terms_of_service="http://www.angeek.com.cn",
+            contact=openapi.Contact(email="admin@angeek.com.cn"),
+            license=openapi.License(name=" "),
         ),
         public=True,
         patterns=patterns,
         permission_classes=(permissions.AllowAny,),
     )
     return schema_view
-
