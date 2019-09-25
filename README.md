@@ -1,7 +1,5 @@
-## Jumpserver 多云环境下更好用的堡垒机
+## 多云环境下的堡垒机
 
-![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=jumpserver)
-![Visitors in today](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=jumpserver)
 [![Python3](https://img.shields.io/badge/python-3.6-green.svg?style=plastic)](https://www.python.org/)
 [![Django](https://img.shields.io/badge/django-2.1-brightgreen.svg?style=plastic)](https://www.djangoproject.com/)
 [![Ansible](https://img.shields.io/badge/ansible-2.4.2.0-blue.svg?style=plastic)](https://www.ansible.com/)
@@ -9,13 +7,12 @@
 
 ----
 
-Jumpserver 是全球首款完全开源的堡垒机，使用 GNU GPL v2.0 开源协议，是符合 4A 的运维安全审计系统。
+安几堡垒机是全球首款完全开源的堡垒机，使用 GNU GPL v2.0 开源协议，是符合 4A 的运维安全审计系统。
 
-Jumpserver 使用 Python / Django 进行开发，遵循 Web 2.0 规范，配备了业界领先的 Web Terminal 解决方案，交互界面美观、用户体验好。
+安几堡垒机使用 Python / Django 进行开发，遵循 Web 2.0 规范，配备了业界领先的 Web Terminal 解决方案，交互界面美观、用户体验好。
 
-Jumpserver 采纳分布式架构，支持多机房跨区域部署，支持横向扩展，无资产数量及并发限制。
+安几堡垒机采纳分布式架构，支持多机房跨区域部署，支持横向扩展，无资产数量及并发限制。
 
-改变世界，从一点点开始。
 
 ### 核心功能列表
 ----
